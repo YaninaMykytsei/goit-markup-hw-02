@@ -63,12 +63,14 @@ font-style: normal;
    color: #434455;
 }
 
-.section-hero {}
+.section-hero {
+   background-color: #2e2f42;
+}
 
 .title {
    font-weight: 700;
    font-size: 56px;
-   line-height: 1.07143;
+   line-height: 1.07;
    letter-spacing: 0.02em;
    text-align: center;
    color: #fff;
@@ -80,6 +82,8 @@ font-style: normal;
    line-height: 1.5;
    letter-spacing: 0.04em;
    color: #fff;
+   background-color: #4d5ae5;
+   cursor: pointer;
 }
 
 .button-hero:hover,
@@ -111,18 +115,23 @@ font-style: normal;
    color: #434455;
 }
 
-.team {}
+.team {
+   background: #f4f4fd;
+}
 
 .titel-team {
    font-weight: 700;
    font-size: 36px;
-   line-height: 1.11111;
+   line-height: 1.11;
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
+   text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+   background: #fff;
+}
 
 .team-ikon {}
 
@@ -151,10 +160,11 @@ font-style: normal;
 .title-portfolio {
    font-weight: 700;
    font-size: 36px;
-   line-height: 1.11111;
+   line-height: 1.11;
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
+   text-transform: capitalize
 }
 
 .portfolio-list {}
@@ -179,7 +189,9 @@ font-style: normal;
    color: #434455;
 }
 
-.page-footer {}
+.page-footer {
+   background: #2e2f42;
+}
 
 .footer-logo .logo-part {
    color: #f4f4fd;
