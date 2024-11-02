@@ -129,11 +129,11 @@ font-style: normal;
    text-transform: capitalize;
 }
 
-.team-list {
+.team-list {}
+
+.team-ikon {
    background: #fff;
 }
-
-.team-ikon {}
 
 .team-img {}
 
